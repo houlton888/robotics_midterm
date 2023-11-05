@@ -15,8 +15,13 @@ https://chrisrogers.pyscriptapps.com/me35-midterm/latest/
 
 Library Structure:
 main code on pico uses following libraries:
-1) othmro_led_lib
-2) Codes.airtable
-3) Accel_lib_sarvey
-4) mqtt
-5) secrets
+1) othmro_led_lib:
+   This library defines which pins should be turned on for the LED display to display what numbers/symbols, and makes functions for the user to drive the display easily
+3) Codes.airtable
+   has personal authentification token for airtable api stored
+5) Accel_lib_sarvey
+   library that makes a class called accel, which makes reading acceleration vslues from an accelerometer into one easy function
+7) mqtt
+   library sets up mqtt
+9) secrets
+   contatins wifi passwords and connection functions
